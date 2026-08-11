@@ -1,0 +1,144 @@
+{
+  "TARGET_MODE": "single",
+  "LEARNING_TARGET": "distance",
+  "SINGLE_TRAIN_LEARNING_TARGET": "distance",
+  "DUAL_TRAIN_LEARNING_TARGET": "pareto",
+  "DISTANCE_METHOD": "distance_I",
+  "DUAL_RANKING_METHOD": "pareto_layer",
+  "EFFECTIVE_DISTANCE_METHOD": "distance_I",
+  "EFFECTIVE_DISTANCE_LAMBDA": 0.5,
+  "EFFECTIVE_DUAL_RANKING_METHOD": "not_applicable",
+  "EXPERIMENT_PARENT": "SINGLE",
+  "EXPERIMENT_TAG": "ET_I_LPCAN0p90_AMM_RLMM_Cp99.6_L5_PREG0",
+  "RESULT_DIRECTORY": "C:\\Users\\Babak Rad\\My Files\\TU Dresden\\Master Thesis\\Implementation\\results\\model_performances\\SINGLE\\ET_I_LPCAN0p90_AMM_RLMM_Cp99.6_L5_PREG0",
+  "FINAL_SINGLE_TARGET_METHODS": [
+    "distance_I",
+    "tchebycheff",
+    "pbi",
+    "apd"
+  ],
+  "LEGACY_SINGLE_TARGET_METHODS": [
+    "distance_E",
+    "pareto_score",
+    "pareto_loss",
+    "pareto_rank",
+    "r2"
+  ],
+  "TRAIN_ALLOW_LEGACY_TARGETS": false,
+  "TRAIN_MODEL_FAMILY": "ET",
+  "EFFECTIVE_MODEL_PARAMS": {
+    "n_estimators": 300,
+    "max_depth": 24,
+    "min_samples_split": 5,
+    "min_samples_leaf": 1,
+    "max_features": "sqrt",
+    "bootstrap": false,
+    "n_jobs": -1,
+    "random_state": 42
+  },
+  "TRAIN_RANDOM_STATE": 42,
+  "TRAIN_USE_METADATA": true,
+  "TRAIN_METADATA_VARIANT": "lodo_pca_new",
+  "TRAIN_SCALE_METADATA": false,
+  "TRAIN_METADATA_SCALE_METHOD": "minmax",
+  "EFFECTIVE_PCA_LODO_NUMBER_OF_COMPONENTS": 4,
+  "PCA_VARIANCES_NEW": [
+    0.8,
+    0.85,
+    0.9,
+    0.95
+  ],
+  "EFFECTIVE_PCA_LODO_NEW_VARIANCE": 0.9,
+  "EFFECTIVE_PCA_RANKED_NUMBER_OF_FEATURES": 1,
+  "EFFECTIVE_PCA_RANKED_SELECTED_POSITIONS": null,
+  "SELECTED_DETECTORS": [
+    "D3",
+    "IBDD",
+    "CSDDM",
+    "OCDD",
+    "PCACD",
+    "SPLL",
+    "UDetect",
+    "BNDM",
+    "CDBD",
+    "DAWIDD"
+  ],
+  "SELECTED_DATASETS": [
+    "Electricity",
+    "ForestCovertype",
+    "GasSensor",
+    "PokerHand",
+    "RialtoBridgeTimelapse",
+    "SensorStream"
+  ],
+  "PREPROCESSING_ACCURACY_MODE": "minmax",
+  "PREPROCESSING_RUNTIME_MODE": "log1p_minmax",
+  "PREPROCESSING_RUNTIME_UPPER_CLIPPING": true,
+  "PREPROCESSING_RUNTIME_CLIP_METHOD": "percentile_upper",
+  "PREPROCESSING_RUNTIME_CLIP_IQR_MULTIPLIER": 1.8,
+  "PREPROCESSING_RUNTIME_CLIP_PERCENTILE": 99.6,
+  "TRAIN_DISTANCE_LAMBDA": 0.5,
+  "TRAIN_SCALARIZATION_ACCURACY_WEIGHT": 0.5,
+  "TRAIN_SCALARIZATION_IDEAL_POINT": [
+    1.0,
+    1.0
+  ],
+  "TRAIN_R2_ACCURACY_WEIGHTS": [
+    0.1,
+    0.3,
+    0.5,
+    0.7,
+    0.9
+  ],
+  "TRAIN_R2_AGGREGATION": "mean",
+  "TRAIN_R2_TOP_K": 3,
+  "TRAIN_PBI_THETA": 5.0,
+  "TRAIN_APD_ALPHA": 2.0,
+  "TRAIN_APD_EVAL_RATIO": 1.0,
+  "TRAIN_TOP_K_VALUES": [
+    20
+  ],
+  "TRAIN_NPD_THRESHOLDS": [
+    0.05,
+    0.1
+  ],
+  "TRAIN_PEC_ACCURACY_WEIGHTS": [
+    0.5
+  ],
+  "TRAIN_RUN_TRAINING": false,
+  "TRAIN_RUN_EVALUATION": false,
+  "TRAIN_RUN_PLOTTING": true,
+  "TRAIN_SAVE_MODELS": true,
+  "TRAIN_SAVE_TRAINING_DATA_SNAPSHOT": true,
+  "TRAIN_PLOT_PARETO": true,
+  "TRAIN_PLOT_PARETO_LOG": true,
+  "TRAIN_PLOT_PARETO_CHUNK": true,
+  "TRAIN_PLOT_PARETO_CUSTOM": true,
+  "TRAIN_OVERWRITE_ARTIFACTS": false,
+  "TRAIN_USE_PREFERENCE_REGIONS": false,
+  "REGIONAL_ACTIVE": false,
+  "REGIONAL_METHODS": [
+    "apd",
+    "pbi",
+    "tchebycheff"
+  ],
+  "TRAIN_PREFERENCE_REGION_NAMES": [
+    "WACC_0p1_WRT_0p9",
+    "WACC_0p3_WRT_0p7",
+    "WACC_0p5_WRT_0p5",
+    "WACC_0p7_WRT_0p3",
+    "WACC_0p9_WRT_0p1"
+  ],
+  "TRAIN_PREFERENCE_REGION_ACCURACY_WEIGHTS": {
+    "WACC_0p1_WRT_0p9": 0.1,
+    "WACC_0p3_WRT_0p7": 0.3,
+    "WACC_0p5_WRT_0p5": 0.5,
+    "WACC_0p7_WRT_0p3": 0.7,
+    "WACC_0p9_WRT_0p1": 0.9
+  },
+  "ORDERED_PREFERENCE_REGIONS": [],
+  "LAST_SAVED_PREFERENCE_REGION": null,
+  "EXPORT_UNCERTAINTY_FEATURES": false,
+  "CHEAT_ON": true,
+  "PROJECT_ROOT": "C:\\Users\\Babak Rad\\My Files\\TU Dresden\\Master Thesis\\Implementation"
+}
