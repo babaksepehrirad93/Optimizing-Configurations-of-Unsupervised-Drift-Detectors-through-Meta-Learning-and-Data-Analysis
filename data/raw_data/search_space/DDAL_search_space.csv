@@ -1,0 +1,10 @@
+Dataset,recent_samples_size,batch_size,theta,lambida
+Electricity,range:int:1.0|5000.0,range:int:1.0|5000.0,range:float:0.0|0.999,range:float:0.001|0.999
+ForestCovertype,range:int:1.0|5000.0,range:int:1.0|5000.0,range:float:0.0|0.999,range:float:0.001|0.999
+GasSensor,range:int:1.0|5000.0,range:int:1.0|5000.0,range:float:0.0|0.999,range:float:0.001|0.999
+NOAAWeather,range:int:1.0|5000.0,range:int:1.0|5000.0,range:float:0.0|0.999,range:float:0.001|0.999
+OutdoorObjects,range:int:1.0|5000.0,range:int:1.0|5000.0,range:float:0.0|0.999,range:float:0.001|0.999
+Ozone,range:int:1.0|5000.0,range:int:1.0|5000.0,range:float:0.0|0.999,range:float:0.001|0.999
+PokerHand,range:int:1.0|5000.0,range:int:1.0|5000.0,range:float:0.0|0.999,range:float:0.001|0.999
+RialtoBridgeTimelapse,range:int:1.0|5000.0,range:int:1.0|5000.0,range:float:0.0|0.999,range:float:0.001|0.999
+SensorStream,range:int:1.0|5000.0,range:int:1.0|5000.0,range:float:0.0|0.999,range:float:0.001|0.999

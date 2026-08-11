@@ -1,0 +1,5 @@
+index,ACCURACY,RUNTIME,transformed_accuracy,transformed_runtime,is_pareto,pareto_layer,recent_samples_size,batch_size,detection_buf_size,overlap,alpha,gamma,statistical_test,approximation_type,subset_bound
+0,0.52,15,1.0,1.0,1,1,1568,3998,3919,0.93,0.91,2.999,str('ks-test'),str('bounded'),1
+1,0.52,745,1.0,0.012117746669867535,0,2,3852,1869,727,0.677,0.452,2.193,str('t-test'),str('bounded'),2
+2,0.52,781,1.0,0.0,0,4,2637,1420,3613,0.605,0.892,2.04,str('ks-test'),str('bounded'),2
+3,0.52,770,1.0,0.0036424268526003,0,3,4182,4167,625,0.703,0.011,1.021,str('ks-test'),str('bounded'),2

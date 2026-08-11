@@ -1,0 +1,10 @@
+Dataset,recent_samples_size,n_samples,threshold,outlier_detector_kwargs
+Electricity,range:int:1.0|5000.0,range:int:1.0|5000.0,range:float:0.001|0.999,"choice:cat:{'nu':0.5,'kernel':'rbf','gamma':'auto'}"
+ForestCovertype,range:int:1.0|5000.0,range:int:1.0|5000.0,range:float:0.001|0.999,"choice:cat:{'nu':0.5,'kernel':'rbf','gamma':'auto'}"
+GasSensor,range:int:1.0|5000.0,range:int:1.0|5000.0,range:float:0.001|0.999,"choice:cat:{'nu':0.5,'kernel':'rbf','gamma':'auto'}"
+NOAAWeather,range:int:1.0|5000.0,range:int:1.0|5000.0,range:float:0.001|0.999,"choice:cat:{'nu':0.5,'kernel':'rbf','gamma':'auto'}"
+OutdoorObjects,range:int:1.0|5000.0,range:int:1.0|5000.0,range:float:0.001|0.999,"choice:cat:{'nu':0.5,'kernel':'rbf','gamma':'auto'}"
+Ozone,range:int:1.0|5000.0,range:int:1.0|5000.0,range:float:0.001|0.999,"choice:cat:{'nu':0.5,'kernel':'rbf','gamma':'auto'}"
+PokerHand,range:int:1.0|5000.0,range:int:1.0|5000.0,range:float:0.001|0.999,"choice:cat:{'nu':0.5,'kernel':'rbf','gamma':'auto'}"
+RialtoBridgeTimelapse,range:int:1.0|5000.0,range:int:1.0|5000.0,range:float:0.001|0.999,"choice:cat:{'nu':0.5,'kernel':'rbf','gamma':'auto'}"
+SensorStream,range:int:1.0|5000.0,range:int:1.0|5000.0,range:float:0.001|0.999,"choice:cat:{'nu':0.5,'kernel':'rbf','gamma':'auto'}"

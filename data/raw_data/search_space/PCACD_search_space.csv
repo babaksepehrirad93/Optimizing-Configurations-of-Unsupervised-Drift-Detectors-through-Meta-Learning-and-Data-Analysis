@@ -1,0 +1,10 @@
+Dataset,recent_samples_size,window_size,ev_threshold,delta,divergence_metric,sample_period,online_scaling
+Electricity,range:int:1.0|5000.0,range:int:1.0|5000.0,range:float:0.001|0.999,range:float:0.001|0.999,choice:cat:str('intersection')|str('kl'),range:float:0.01|0.1,choice:bool:TRUE|FALSE
+ForestCovertype,range:int:1.0|5000.0,range:int:1.0|5000.0,range:float:0.001|0.999,range:float:0.001|0.999,choice:cat:str('intersection')|str('kl'),range:float:0.01|0.1,choice:bool:TRUE|FALSE
+GasSensor,range:int:1.0|5000.0,range:int:1.0|5000.0,range:float:0.001|0.999,range:float:0.001|0.999,choice:cat:str('intersection')|str('kl'),range:float:0.01|0.1,choice:bool:TRUE|FALSE
+NOAAWeather,range:int:1.0|5000.0,range:int:1.0|5000.0,range:float:0.001|0.999,range:float:0.001|0.999,choice:cat:str('intersection')|str('kl'),range:float:0.01|0.1,choice:bool:TRUE|FALSE
+OutdoorObjects,range:int:1.0|5000.0,range:int:1.0|5000.0,range:float:0.001|0.999,range:float:0.001|0.999,choice:cat:str('intersection')|str('kl'),range:float:0.01|0.1,choice:bool:TRUE|FALSE
+Ozone,range:int:1.0|5000.0,range:int:1.0|5000.0,range:float:0.001|0.999,range:float:0.001|0.999,choice:cat:str('intersection')|str('kl'),range:float:0.01|0.1,choice:bool:TRUE|FALSE
+PokerHand,range:int:1.0|5000.0,range:int:1.0|5000.0,range:float:0.001|0.999,range:float:0.001|0.999,choice:cat:str('intersection')|str('kl'),range:float:0.01|0.1,choice:bool:TRUE|FALSE
+RialtoBridgeTimelapse,range:int:1.0|5000.0,range:int:1.0|5000.0,range:float:0.001|0.999,range:float:0.001|0.999,choice:cat:str('intersection')|str('kl'),range:float:0.01|0.1,choice:bool:TRUE|FALSE
+SensorStream,range:int:1.0|5000.0,range:int:1.0|5000.0,range:float:0.001|0.999,range:float:0.001|0.999,choice:cat:str('intersection')|str('kl'),range:float:0.01|0.1,choice:bool:TRUE|FALSE

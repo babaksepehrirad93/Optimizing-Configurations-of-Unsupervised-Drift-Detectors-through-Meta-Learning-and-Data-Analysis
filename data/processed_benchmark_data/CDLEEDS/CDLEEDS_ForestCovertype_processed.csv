@@ -1,0 +1,4 @@
+index,ACCURACY,RUNTIME,transformed_accuracy,transformed_runtime,is_pareto,pareto_layer,recent_samples_size,significance,gamma,max_node_size,max_tree_depth,max_time_stationary
+0,0.58,559,0.0,1.0,1,1,3623,0.58,0.193,1,2975,1182
+1,0.84,12705,1.0,0.0,1,1,35,0.983,0.18,563,3,1125
+2,0.8,11842,0.8461538461538465,0.02253035296319117,1,1,597,0.113,0.043,7,1488,95

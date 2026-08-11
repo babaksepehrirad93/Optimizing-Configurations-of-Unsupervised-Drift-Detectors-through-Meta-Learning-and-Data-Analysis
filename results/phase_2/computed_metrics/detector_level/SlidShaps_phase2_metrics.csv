@@ -1,0 +1,10 @@
+dataset,recommendation_attempted_count,recommendation_completed_count,completion_rate,benchmark_pareto_completed_count,paper_default_total_count,paper_default_completed_count,gd_plus,igd_plus,recommendation_benchmark_dominance_rate,benchmark_pareto_dominated_rate,exact_r2_recommendations,exact_r2_benchmark,r2_gap,recommendation_default_dominance_rate,default_dominated_rate,spearman_accuracy,spearman_runtime
+Electricity,20,20,1.0,5,4,4,0.061111111111111116,0.4222222222222222,0.35,0.2,0.5,0.21827518330537776,0.28172481669462224,1.0,1.0,,0.9822140770802839
+ForestCovertype,20,20,1.0,0,4,0,0.0,0.0,1.0,1.0,0.0,0.75,-0.75,1.0,1.0,,0.6390977443609022
+GasSensor,20,20,1.0,1,2,2,0.34030939603445204,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,,-0.10187027077269775
+NOAAWeather,20,20,1.0,2,4,4,0.01075230900310381,0.5,0.9,0.5,0.5,0.4553732987717026,0.04462670122829743,1.0,1.0,,0.7705924800227667
+OutdoorObjects,20,20,1.0,1,12,12,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,,
+Ozone,20,20,1.0,1,12,12,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,,
+PokerHand,20,20,1.0,1,4,2,0.07263716503007392,0.0,0.8,1.0,0.0,0.2736044321107913,-0.2736044321107913,1.0,1.0,,0.8367195747125372
+RialtoBridgeTimelapse,20,20,1.0,1,2,2,0.0,0.0,1.0,1.0,0.0,0.5,-0.5,1.0,1.0,,0.9160708213730495
+SensorStream,20,20,1.0,0,4,4,0.0,0.0,1.0,1.0,0.0,0.75,-0.75,1.0,1.0,,0.8416698601986179

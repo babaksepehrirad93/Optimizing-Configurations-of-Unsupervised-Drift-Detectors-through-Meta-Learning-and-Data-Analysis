@@ -1,0 +1,10 @@
+Dataset,recent_samples_size,n_samples,n_permutations,update_interval,n_consecutive_deviations
+Electricity,range:int:1.0|5000.0,range:int:1.0|5000.0,range:int:2.0|1000.0,range:int:2.0|250.0,range:int:1.0|250.0
+ForestCovertype,range:int:1.0|5000.0,range:int:1.0|5000.0,range:int:2.0|1000.0,range:int:2.0|250.0,range:int:1.0|250.0
+GasSensor,range:int:1.0|5000.0,range:int:1.0|5000.0,range:int:2.0|1000.0,range:int:2.0|250.0,range:int:1.0|250.0
+NOAAWeather,range:int:1.0|5000.0,range:int:1.0|5000.0,range:int:2.0|1000.0,range:int:2.0|250.0,range:int:1.0|250.0
+OutdoorObjects,range:int:1.0|5000.0,range:int:1.0|5000.0,range:int:2.0|1000.0,range:int:2.0|250.0,range:int:1.0|250.0
+Ozone,range:int:1.0|5000.0,range:int:1.0|5000.0,range:int:2.0|1000.0,range:int:2.0|250.0,range:int:1.0|250.0
+PokerHand,range:int:1.0|5000.0,range:int:1.0|5000.0,range:int:2.0|1000.0,range:int:2.0|250.0,range:int:1.0|250.0
+RialtoBridgeTimelapse,range:int:1.0|5000.0,range:int:1.0|5000.0,range:int:2.0|1000.0,range:int:2.0|250.0,range:int:1.0|250.0
+SensorStream,range:int:1.0|5000.0,range:int:1.0|5000.0,range:int:2.0|1000.0,range:int:2.0|250.0,range:int:1.0|250.0
