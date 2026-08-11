@@ -1,4 +1,4 @@
-# Metadata-Driven Recommendation of Hyperparameter Configurations for Unsupervised Concept Drift Detectors
+# Optimizing Configurations of Unsupervised Drift Detectors through Meta-learning and Data Analysis
 
 This repository contains the framework developed by **Babak Sepehri Rad** for the master's thesis **“Optimizing Configurations of Unsupervised Drift Detectors through Meta-learning and Data Analysis”** at **TU Dresden**.
 
